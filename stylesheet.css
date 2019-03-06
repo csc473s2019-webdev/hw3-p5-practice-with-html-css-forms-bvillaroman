@@ -1,0 +1,12 @@
+body {
+  background-color: #27272A;
+}
+
+.form {
+  background-color: #FF8F00;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: .7rem;
+  padding: 1rem;
+}

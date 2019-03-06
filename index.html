@@ -9,68 +9,70 @@
 </head>
 
 <body>
-  <h1 id="title">Survey Form</h1>
-  <p id="description"> This is a survey form for a class assignment </p>
-  <form id="survey-form">
-    <div class="input-form">
-      <label id="name-label" for="name">Name: </label>
-      <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required/>
-    </div>
+  <div class="form">
+    <h1 id="title">Survey Form</h1>
+    <p id="description"> This is a survey form for a class assignment </p>
+    <form id="survey-form">
+      <div class="input-form">
+        <label id="name-label" for="name">Name: </label>
+        <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required/>
+      </div>
 
-    <div class="input-form">
-      <label id="email-label" for="email">Email: </label>
-      <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required/>
-    </div>
+      <div class="input-form">
+        <label id="email-label" for="email">Email: </label>
+        <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required/>
+      </div>
 
-    <div class="input-form">
-      <label id="number-label" for="number">Number: </label>
-      <input type="number" name="number" id="number" class="input-field" placeholder="Enter a number from 1 to 5" min="1" max="5" required/>
-    </div>
+      <div class="input-form">
+        <label id="number-label" for="number">Number: </label>
+        <input type="number" name="number" id="number" class="input-field" placeholder="Enter a number from 1 to 5" min="1" max="5" required/>
+      </div>
 
-    <div class="input-form">
-      <label id="dropdown-label" for="color">Favorite color: </label>
-      <select id="dropdown" name="color" class="dropdown-input">
-        <option disabled value>Select a Color</option>
-        <option value="red">Red</option>
-        <option value="orange">Orange</option>
-        <option value="yellow">Yellowr</option>
-        <option value="green">Green</option>
-        <option value="blue">Blue</option>
-        <option value="indigo">Indigo</option>
-        <option value="violet">Violet</option>
-        <option value="other">Other</option>
-      </select>
-    </div>
+      <div class="input-form">
+        <label id="dropdown-label" for="color">Favorite color: </label>
+        <select id="dropdown" name="color" class="dropdown-input">
+          <option disabled value>Select a Color</option>
+          <option value="red">Red</option>
+          <option value="orange">Orange</option>
+          <option value="yellow">Yellowr</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+          <option value="indigo">Indigo</option>
+          <option value="violet">Violet</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
 
-    <div class="input-form">
-      <label id="radio-label" for="student">Are you a student: </label>
-      <ul name="student" class="radio-input" style="list-style: none;">
-        <li class="radio"><label>Yes<input name="radio-buttons" value="yes"  type="radio" class="student-radio" ></label></li>
-        <li class="radio"><label>No<input name="radio-buttons" value="no"  type="radio" class="stident-radio" ></label></li>
-        <li class="radio"><label>Prefer not to say<input name="radio-buttons" value="prefer not to say"  type="radio" class="student-radio" ></label></li>
-      </ul>
-    </div>
+      <div class="input-form">
+        <label id="radio-label" for="student">Are you a student: </label>
+        <ul name="student" class="radio-input" style="list-style: none;">
+          <li class="radio"><label>Yes<input name="radio-buttons" value="yes"  type="radio" class="student-radio" ></label></li>
+          <li class="radio"><label>No<input name="radio-buttons" value="no"  type="radio" class="stident-radio" ></label></li>
+          <li class="radio"><label>Prefer not to say<input name="radio-buttons" value="prefer not to say"  type="radio" class="student-radio" ></label></li>
+        </ul>
+      </div>
 
-    <div class="input-form">
-      <label id="select-label" for="classes">Classes you are taking: </label>
-      <ul id="classes" class="select-input" style="list-style: none;">
-          <li class="checkbox"><label><input name="class-select" value="1" type="checkbox" class="class-select">Web design</label></li>
-          <li class="checkbox"><label><input name="class-select" value="2" type="checkbox" class="class-select">Senior Design 1</label></li>
-          <li class="checkbox"><label><input name="class-select" value="3" type="checkbox" class="class-select">Senior Design 2</label></li>
-          <li class="checkbox"><label><input name="class-select" value="4" type="checkbox" class="class-select">AI</label></li>
-          <li class="checkbox"><label><input name="class-select" value="5" type="checkbox" class="class-select">Web Security</label></li>
-          <li class="checkbox"><label><input name="class-select" value="6" type="checkbox" class="class-select">Computer Security</label></li>
-          <li class="checkbox"><label><input name="class-select" value="7" type="checkbox" class="class-select">Visualization</label></li>
-          <li class="checkbox"><label><input name="class-select" value="8" type="checkbox" class="class-select">Computer Graphics</label></li>
-      </ul>
-    </div>
-    <div class="input-form">
-      <label id="comment-label" for="comments">Please enter any comment you want about this form</label>
-      <textarea id="comments" class="comment-input" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
-    </div>
+      <div class="input-form">
+        <label id="select-label" for="classes">Classes you are taking: </label>
+        <ul id="classes" class="select-input" style="list-style: none;">
+            <li class="checkbox"><label><input name="class-select" value="1" type="checkbox" class="class-select">Web design</label></li>
+            <li class="checkbox"><label><input name="class-select" value="2" type="checkbox" class="class-select">Senior Design 1</label></li>
+            <li class="checkbox"><label><input name="class-select" value="3" type="checkbox" class="class-select">Senior Design 2</label></li>
+            <li class="checkbox"><label><input name="class-select" value="4" type="checkbox" class="class-select">AI</label></li>
+            <li class="checkbox"><label><input name="class-select" value="5" type="checkbox" class="class-select">Web Security</label></li>
+            <li class="checkbox"><label><input name="class-select" value="6" type="checkbox" class="class-select">Computer Security</label></li>
+            <li class="checkbox"><label><input name="class-select" value="7" type="checkbox" class="class-select">Visualization</label></li>
+            <li class="checkbox"><label><input name="class-select" value="8" type="checkbox" class="class-select">Computer Graphics</label></li>
+        </ul>
+      </div>
+      <div class="input-form">
+        <label id="comment-label" for="comments">Please enter any comment you want about this form</label>
+        <textarea id="comments" class="comment-input" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
 
-    <button id="submit" type="submit">Submit</button>
-  </form>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </div>
 </body>
 
 </html>
