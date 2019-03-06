@@ -28,8 +28,8 @@
     </div>
 
     <div class="input-form">
-      <label id="number-label" for="color">Favorite color: </label>
-      <select id="dropdown" name="color" class="dropdown">
+      <label id="dropdown-label" for="color">Favorite color: </label>
+      <select id="dropdown" name="color" class="dropdown-input">
         <option disabled value>Select a Color</option>
         <option value="red">Red</option>
         <option value="orange">Orange</option>
@@ -44,7 +44,7 @@
 
     <div class="input-form">
       <label id="radio-label" for="student">Are you a student: </label>
-      <ul name="student" style="list-style: none;">
+      <ul name="student" class="radio-input" style="list-style: none;">
         <li class="radio"><label>Yes<input name="radio-buttons" value="yes"  type="radio" class="student-radio" ></label></li>
         <li class="radio"><label>No<input name="radio-buttons" value="no"  type="radio" class="stident-radio" ></label></li>
         <li class="radio"><label>Prefer not to say<input name="radio-buttons" value="prefer not to say"  type="radio" class="student-radio" ></label></li>
@@ -53,7 +53,7 @@
 
     <div class="input-form">
       <label id="select-label" for="classes">Classes you are taking: </label>
-      <ul id="classes" style="list-style: none;">
+      <ul id="classes" class="select-input" style="list-style: none;">
           <li class="checkbox"><label><input name="class-select" value="1" type="checkbox" class="class-select">Web design</label></li>
           <li class="checkbox"><label><input name="class-select" value="2" type="checkbox" class="class-select">Senior Design 1</label></li>
           <li class="checkbox"><label><input name="class-select" value="3" type="checkbox" class="class-select">Senior Design 2</label></li>
@@ -64,7 +64,10 @@
           <li class="checkbox"><label><input name="class-select" value="8" type="checkbox" class="class-select">Computer Graphics</label></li>
       </ul>
     </div>
-
+    <div class="input-form">
+      <label id="comment-label" for="comments">Please enter any comment you want about this form</label>
+      <textarea id="comments" class="comment-input" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+    </div>
   </form>
 </body>
 
