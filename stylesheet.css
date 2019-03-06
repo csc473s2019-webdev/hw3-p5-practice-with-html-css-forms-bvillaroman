@@ -1,12 +1,37 @@
 body {
   background-color: #27272A;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .form {
   background-color: #FF8F00;
-  width: 80%;
+  width: 85%;
   height: 100%;
   margin: 0 auto;
   border-radius: .7rem;
   padding: 1rem;
+}
+#title {
+  font-weight: 900;
+  text-align: center;
+  color: white;
+}
+#description {
+  text-align: center;
+}
+#name-email-number {
+  width: 80%;
+  margin: 0 auto;
+}
+.input-form {
+  width: 95%;
+  padding: 1rem;
+}
+#name-email-number .input-form label {
+  text-align: left;
+}
+#name-email-number .input-field {
+  width: 65%;
+  min-width: 1rem;
+  float: right;
 }

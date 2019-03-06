@@ -6,26 +6,29 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
 <body>
+  <h1 id="title">Survey Form</h1>
   <div class="form">
-    <h1 id="title">Survey Form</h1>
     <p id="description"> This is a survey form for a class assignment </p>
     <form id="survey-form">
-      <div class="input-form">
-        <label id="name-label" for="name">Name: </label>
-        <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required/>
-      </div>
+      <div id="name-email-number">
+        <div class="input-form">
+          <label id="name-label" for="name">*Name: </label>
+          <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required/>
+        </div>
 
-      <div class="input-form">
-        <label id="email-label" for="email">Email: </label>
-        <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required/>
-      </div>
+        <div class="input-form">
+          <label id="email-label" for="email">*Email: </label>
+          <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required/>
+        </div>
 
-      <div class="input-form">
-        <label id="number-label" for="number">Number: </label>
-        <input type="number" name="number" id="number" class="input-field" placeholder="Enter a number from 1 to 5" min="1" max="5" required/>
+        <div class="input-form">
+          <label id="number-label" for="number">*Number: </label>
+          <input type="number" name="number" id="number" class="input-field" placeholder="Enter a number from 1 to 5" min="1" max="5" required/>
+        </div>
       </div>
 
       <div class="input-form">
